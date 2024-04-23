@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(196, 252, 188);
+    background-image: url(img/pngegg\ \(30\).png);
+}
+.game{
+    width: 252px;
+    text-align: center;
+    color: rgb(248, 154, 12);
+    margin: auto;
+    font-weight: 500;
+}
+
+.title{
+    background-color: rgb(15, 115, 15);
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+span{
+    color: rgb(245, 245, 49);
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(15, 115, 15);
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+
+.square:hover{
+    background: rgb(90, 167, 78);
+    cursor: pointer;
+}
